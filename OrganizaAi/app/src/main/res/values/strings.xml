@@ -1,0 +1,114 @@
+<resources>
+    <!-- Nome do aplicativo -->
+    <string name="app_name">Organiza Aí</string>
+    
+    <!-- Tela Principal -->
+    <string name="main_title">Minhas Tarefas</string>
+    <string name="add_task">Adicionar Tarefa</string>
+    <string name="no_tasks_title">Nenhuma tarefa ainda</string>
+    <string name="no_tasks_subtitle">Toque no botão + para adicionar sua primeira tarefa</string>
+    <string name="pending_tasks">Pendentes</string>
+    <string name="completed_tasks">Concluídas</string>
+    
+    <!-- Formulário de Tarefa -->
+    <string name="new_task">Nova Tarefa</string>
+    <string name="edit_task">Editar Tarefa</string>
+    <string name="task_title">Título da tarefa</string>
+    <string name="task_description">Descrição detalhada</string>
+    <string name="task_date_time">Data e Hora</string>
+    <string name="task_category">Categoria</string>
+    <string name="select_date">Selecionar Data</string>
+    <string name="select_time">Selecionar Hora</string>
+    <string name="no_date_selected">Nenhuma data selecionada</string>
+    <string name="save">Salvar</string>
+    <string name="update">Atualizar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="saving">Salvando...</string>
+    <string name="updating">Atualizando...</string>
+    
+    <!-- Categorias -->
+    <string name="category_work">Trabalho</string>
+    <string name="category_personal">Pessoal</string>
+    <string name="category_study">Estudos</string>
+    <string name="category_health">Saúde</string>
+    <string name="category_shopping">Compras</string>
+    <string name="category_other">Outros</string>
+    
+    <!-- Ações -->
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="mark_completed">Marcar como Concluída</string>
+    <string name="mark_pending">Marcar como Pendente</string>
+    <string name="task_options">Opções da tarefa</string>
+    
+    <!-- Mensagens de Confirmação -->
+    <string name="delete_task_title">Excluir Tarefa</string>
+    <string name="delete_task_message">Tem certeza que deseja excluir \'%1$s\'?</string>
+    <string name="delete_completed_title">Limpar Concluídas</string>
+    <string name="delete_completed_message">Excluir todas as tarefas concluídas?</string>
+    <string name="discard_changes_title">Descartar Alterações</string>
+    <string name="discard_changes_message">Você tem alterações não salvas. Deseja sair mesmo assim?</string>
+    <string name="continue_editing">Continuar Editando</string>
+    <string name="exit">Sair</string>
+    
+    <!-- Mensagens de Sucesso -->
+    <string name="task_added">Tarefa adicionada com sucesso!</string>
+    <string name="task_updated">Tarefa atualizada com sucesso!</string>
+    <string name="task_deleted">Tarefa excluída</string>
+    <string name="task_completed">Tarefa \'%1$s\' concluída!</string>
+    <string name="completed_tasks_deleted">Tarefas concluídas removidas</string>
+    
+    <!-- Mensagens de Erro -->
+    <string name="error_title_required">Título é obrigatório</string>
+    <string name="error_description_required">Descrição é obrigatória</string>
+    <string name="error_future_date">A data e hora devem ser no futuro</string>
+    <string name="error_save_task">Erro ao salvar tarefa: %1$s</string>
+    <string name="error_update_task">Erro ao atualizar tarefa: %1$s</string>
+    <string name="error_delete_task">Erro ao excluir tarefa: %1$s</string>
+    <string name="error_load_task">Erro ao carregar tarefa: %1$s</string>
+    <string name="error_complete_task">Erro ao completar tarefa: %1$s</string>
+    
+    <!-- Notificações -->
+    <string name="notification_channel_name">Lembretes de Tarefas</string>
+    <string name="notification_channel_description">Notificações para lembrar de tarefas próximas</string>
+    <string name="notification_title">Lembrete: %1$s</string>
+    <string name="notification_content">%1$s\n\nCategoria: %2$s</string>
+    <string name="notification_action_complete">Marcar como Concluída</string>
+    
+    <!-- Permissões -->
+    <string name="permission_notification_title">Permissão de Notificação</string>
+    <string name="permission_notification_message">Para receber lembretes, habilite as notificações nas configurações.</string>
+    <string name="permission_alarm_title">Permissão de Alarmes</string>
+    <string name="permission_alarm_message">Para lembretes precisos, habilite alarmes exatos nas configurações.</string>
+    
+    <!-- Menu -->
+    <string name="menu_delete_completed">Limpar Concluídas</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_delete_task">Excluir Tarefa</string>
+    
+    <!-- Status das Tarefas -->
+    <string name="task_overdue">Atrasada</string>
+    <string name="task_due_soon">Vence em breve</string>
+    <string name="task_completed_status">Concluída</string>
+    <string name="task_pending_status">Pendente</string>
+    
+    <!-- Formatação de Data -->
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="time_format">HH:mm</string>
+    <string name="datetime_format">dd/MM/yyyy \'às\' HH:mm</string>
+    
+    <!-- Acessibilidade -->
+    <string name="content_description_add_task">Adicionar nova tarefa</string>
+    <string name="content_description_task_menu">Opções da tarefa</string>
+    <string name="content_description_task_completed">Tarefa concluída</string>
+    <string name="content_description_task_pending">Tarefa pendente</string>
+    <string name="content_description_priority_indicator">Indicador de prioridade</string>
+    
+    <!-- Outros -->
+    <string name="ok">OK</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="loading">Carregando...</string>
+    <string name="retry">Tentar Novamente</string>
+    <string name="task_from_notification">Tarefa selecionada da notificação</string>
+</resources>
